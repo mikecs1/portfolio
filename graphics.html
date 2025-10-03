@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="icon.png">
     <title>3D Modelling</title>
+    <!-- Bootstrap -->
     <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
   </head>
   <body>
@@ -14,47 +15,66 @@
       <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mx-auto">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="codepage/codepage.html">code</a>
+            <a class="nav-link" href="codepage/codepage.html" text=ali>code</a>
           </li>
 			<a class="nav-link" href="about page/About.html">about</a>
-          <li class="nav-item dropdown">
+<!--          <li class="nav-item dropdown">-->
+<!--
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             services
             </a>
+-->
+<!--
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          </li>
+-->
+<!--          </li>-->
+<!--
           <li class="nav-item">
             <a class="nav-link disabled" href="#">Disabled</a>
           </li>
+-->
         </ul>
         <form class="form-inline my-2 my-lg-0">
+<!--
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+-->
         </form>
       </div>
     </nav>
     <section>
-      <div class="jumbotron text-center mt-2">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h1>3D Modelling</h1>
-              <p>&nbsp;   </p>
-              <p>&nbsp;</p>
-            </div>
-          </div>
-        </div>
+      <style>
+  .jumbotron {
+	min-height: 400px;	
+  background-image: url('banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+</style>
+
+<div class="jumbotron text-center mt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+<!--        <h1>3D Modelling</h1>-->
+        <p>&nbsp;   </p>
+        <p>&nbsp;</p>
       </div>
+    </div>
+  </div>
+</div>
     </section>
     <section>
       <div class="container">
@@ -85,7 +105,7 @@ Many of the projects pictured below are made for customers and their specified p
                 <img class="mr-3" src="arrow-icon-resized.png" alt="Generic placeholder image">
                 <div class="media-body">
                   <h5 class="mt-0 mb-1">Personal projects</h5>
-Some of the 3D models are made for experimenting and developing my 3D skills.</div>
+Some of the 3D models are made using tutorials, as I started designing in High School.</div>
               </li>
             </ul>
           </div>
@@ -156,23 +176,24 @@ All of my projects are made in blender using Cycles and Eevee as render engines.
           <div class="col-12 text-center">
             <h1>contact</h1>
             <p>mihneaciubotariu@gmail.com </p>
-           <!--        <button type="button" class="btn btn-success">Get in touch</button>     -->
+<!--            <button type="button" class="btn btn-success">Get in touch</button>-->
           </div>
         </div>
       </div>
     </section>
     <hr>
+<!--
     <div class="section">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-12">
             <h3 class="text-center">ABOUT</h3>
-            <!-- <p>Octopus Studio is a future company that I plan to create for my creative side, including photo &amp; video editing and 3D modelling + rendering.</p>  -->
+            <p>Octopus Studio is a future company that I plan to create for my creative side, including photo &amp; video editing and 3D modelling + rendering.</p>
           </div>
           <div class="col-md-4 col-12">
-			  <!--<button type="button" class="btn btn-success" onclick="window.location.href='mailto:mihneaciubotariu@gmail.com';">Get in touch</button> -->
+			  <button type="button" class="btn btn-success" onclick="window.location.href='mailto:mihneaciubotariu@gmail.com';">Get in touch</button>
 
-            	<!--<h3 class="text-center">GET IN TOUCH</h3> -->
+            	<h3 class="text-center">GET IN TOUCH</h3> 
             <address>
             <strong>Octopus Studio</strong><br>
 Bucharest, Sector 1<br>
@@ -190,6 +211,7 @@ Bucharest, Sector 1<br>
         </div>
       </div>
     </div>
+-->
     <hr>
     <footer class="text-center">
       <div class="container">
@@ -207,4 +229,3 @@ Bucharest, Sector 1<br>
     <script src="js/bootstrap-4.3.1.js"></script>
   </body>
 </html>
-
