@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihnea Stefan Ciubotariu - CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Change these hex codes for background */
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .contact-info a:hover {
+            opacity: 0.8;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .entry {
+            margin-bottom: 20px;
+        }
+
+        .entry h3 {
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .entry-meta {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+
+        .entry-meta strong {
+            color: #764ba2;
+        }
+
+        .entry p {
+            color: #555;
+            margin-left: 15px;
+        }
+
+        .entry ul {
+            margin-left: 35px;
+            color: #555;
+        }
+
+        .entry ul li {
+            margin-bottom: 5px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+        }
+
+        .skill-item {
+            background: #f5f5f5;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border-left: 3px solid #667eea;
+        }
+
+        .language-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .language-card {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            border: 2px solid #e0e0e0;
+        }
+
+        .language-card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .language-card p {
+            font-size: 0.9em;
+            color: #666;
+            line-height: 1.8;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .content {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Mihnea Stefan Ciubotariu</h1>
+            <p>Date of Birth: 18/03/2005 | Nationality: Romanian</p>
+            <div class="contact-info">
+                <span>📍 Bucharest, Romania</span>
+                <span>📧 <a href="mailto:mihneaciubotariu@gmail.com">mihneaciubotariu@gmail.com</a></span>
+                <span>📱 (+40) 0758302854</span>
+                <span>🌐 <a href="https://mihneastefan.info" target="_blank">mihneastefan.info</a></span>
+                <span>💼 <a href="https://www.linkedin.com/in/mihneaciubotariu" target="_blank">LinkedIn</a></span>
+            </div>
+        </div>
+
+        <div class="content">
+            <section class="section">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">Python (Computer Programming)</div>
+                    <div class="skill-item">C++</div>
+                    <div class="skill-item">Object-Oriented Programming (OOP)</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">Git & Github</div>
+                    <div class="skill-item">Shell Scripting (Powershell, Bash)</div>
+                    <div class="skill-item">CSS & HTML</div>
+                    <div class="skill-item">Verbal & Non-verbal Communication</div>
+                    <div class="skill-item">Microsoft Office Suite</div>
+                    <div class="skill-item">Adobe Photoshop</div>
+                    <div class="skill-item">3D Computer Graphics Software</div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>Education and Training</h2>
+                
+                <div class="entry">
+                    <h3>Bachelor's Degree</h3>
+                    <div class="entry-meta">
+                        <strong>09/2024 – Current</strong> | Faculty of Economic Cybernetics, Statistics and Computer Science
+                    </div>
+                    <p>📍 Bucharest, Romania</p>
+                    <p>🎓 Field: Information and Communication Technologies - Software and Applications Development and Analysis</p>
+                    <p>🔗 <a href="https://csie.ase.ro" target="_blank">csie.ase.ro</a></p>
+                    <p>Level: EQF level 6</p>
+                </div>
+
+                <div class="entry">
+                    <h3>High School</h3>
+                    <div class="entry-meta">
+                        <strong>09/2020 – 06/2024</strong> | National College of Informatics Grigore Moisil
+                    </div>
+                    <p>📍 Iasi, Romania</p>
+                    <p>🎓 Field: Information and Communication Technologies - Software and Applications Development and Analysis</p>
+                    <p>🔗 <a href="https://liis.ro" target="_blank">liis.ro</a></p>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>Projects</h2>
+                <div class="entry">
+                    <h3>Portfolio Website</h3>
+                    <p>Website to showcase my personal projects</p>
+                    <p>🔗 <a href="https://mihneastefan.info/" target="_blank">https://mihneastefan.info/</a></p>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>Volunteering</h2>
+                <div class="entry">
+                    <h3>IT Department Member - SiSC Bucharest</h3>
+                    <div class="entry-meta">
+                        <strong>11/2024 – Current</strong> | SiSC - Sindicatul Studentilor din Cibernetica
+                    </div>
+                    <ul>
+                        <li>A student association committed to representation since 1996</li>
+                        <li>Successfully completed over 150 projects aimed at educational, cultural, and professional growth</li>
+                        <li>Engaged in student advocacy while enhancing my expertise in Node.js and Express</li>
+                        <li>Developing strong skills in graphic design tools like Illustrator and Photoshop</li>
+                    </ul>
+                    <p>🔗 <a href="https://sisc.ro" target="_blank">sisc.ro</a></p>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>Language Skills</h2>
+                <div class="language-section">
+                    <div class="language-card">
+                        <h3>Romanian</h3>
+                        <p><strong>Mother Tongue</strong></p>
+                    </div>
+                    
+                    <div class="language-card">
+                        <h3>English</h3>
+                        <p>
+                            Listening: C2<br>
+                            Reading: C2<br>
+                            Writing: C2<br>
+                            Spoken Production: C2<br>
+                            Spoken Interaction: C2
+                        </p>
+                    </div>
+                    
+                    <div class="language-card">
+                        <h3>Italian</h3>
+                        <p>
+                            Listening: A1<br>
+                            Reading: A1<br>
+                            Writing: A1<br>
+                            Spoken Production: A1<br>
+                            Spoken Interaction: A1
+                        </p>
+                    </div>
+                </div>
+                <p style="margin-top: 15px; font-size: 0.85em; color: #666;"><em>Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proficient user</em></p>
+            </section>
+
+            <section class="section">
+                <h2>Driving Licence</h2>
+                <p>Cars: Category B</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
