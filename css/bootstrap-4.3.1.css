@@ -5087,7 +5087,8 @@ a.badge-dark:focus, a.badge-dark.focus {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
-  border-radius: 0.3rem;
+  # border-radius: 0.3rem;
+  border-style:solid
 }
 
 @media (min-width: 576px) {
@@ -10035,4 +10036,5 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
 /*# sourceMappingURL=bootstrap.css.map */
