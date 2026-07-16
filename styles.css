@@ -1,3 +1,12 @@
+/* Font custom - ITC Bauhaus Heavy */
+@font-face {
+    font-family: 'GothamBlack';
+    src: url('fonts/Gotham-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* General Body and Page Styling */
 body, html {
     margin: 0;
@@ -9,7 +18,7 @@ body, html {
 /* Social Media Bar */
 .social-bar {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding: 10px 20px;
     background: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -77,23 +86,24 @@ header {
 /* Overlay Styling */
 .overlay {
     position: absolute;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
+    top: 20px;
+    left: 0;
     width: 100%;
     text-align: center;
-    padding: 10px;
-    font-size: 18px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.grid-item:hover .overlay {
-    opacity: 1;
-}
-
-div1{
-	align-content: center;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: clamp(2rem, 18cqw, 4rem); 
+    font-family: 'GothamBlack', sans-serif;
+    line-height: 1.1;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.8),
+        0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 1; /* mereu vizibil, si pe mobil si pe desktop */
+    pointer-events: none; /* nu blocheaza click-ul pe link */
 }
 
 /* Footer Styling */
@@ -103,4 +113,3 @@ footer {
     background: #333;
     color: #fff;
 }
-

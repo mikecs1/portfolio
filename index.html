@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    <link rel="icon" type="image/png" href="icon.png">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="styles.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="icon" type="image/png" href="icon.png">
+
     <script>
         // Function to set random images for different sections
         function setRandomImage(sectionId, imageArray) {
@@ -22,7 +16,6 @@
             const randomIndex = Math.floor(Math.random() * imageArray.length);
             const randomImage = imageArray[randomIndex];
 
-            // Set the 'src' attribute of the image element for the specified section
             document.getElementById(sectionId).src = randomImage;
         }
 
@@ -30,21 +23,21 @@
         function setAllRandomImages() {
             // Define arrays of images for each section
             const codeImages = [
-                //"C:/Users/Mihnea/Desktop/portfolio/code1e.png",
-				"code1e.png",
-                //"C:/Users/Mihnea/Desktop/portfolio/code2e.png"
-				"code2e.png"
+                "code2.png",
+                "code5.png",
             ];
 
             const graphicsImages = [
-        		"3e.png",
-                "3e.png",
-				"1e.png"
+                "graphics1.png",
+                "graphics2.png",
+                "graphics3.png",
+                "graphics4.png",
+                "graphics5.png",
+                "graphics6.png",
             ];
 
             const aboutImages = [
-                "poza1e.png",
-                /*"C:/Users/Mihnea/Desktop/poza2.jpg"*/
+                "about1.png"
             ];
 
             // random images for each refresh
@@ -55,41 +48,35 @@
     </script>
 </head>
 <body onload="setAllRandomImages()">
-    <div1 class="social-bar">
+    <div class="social-bar">
         <a href="https://web.facebook.com/michaelstephan05" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/mihnea18stefan/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://github.com/mikecs1" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/mihneaciubotariu/" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-    </div1>
+    </div>
 
     <header>
         <!--<img src="C:\\Users\\Mihnea\\Desktop\\portfolio\\home page\\tet.png" alt="My Logo" class="header-image"-->
     </header>
-    
+
     <div class="grid-container">
-        <!-- 
-		<a href="codepage/codepage.html" class="grid-item" id="code">
-        -->
-		<a href="https://github.com/mikecs1" class="grid-item" id="code">
-		<img src="" alt="Code Section" id="codeImage">
-            <!-- <div class="overlay">Code Projects</div> -->
+        <a href="https://github.com/mikecs1" class="grid-item" id="code">
+            <img src="" alt="Code Section" id="codeImage">
+            <div class="overlay">Code</div>
         </a>
         <a href="graphics.html" class="grid-item" id="graphics">
             <img src="" alt="Graphics Section" id="graphicsImage">
-            <!-- <div class="overlay">Graphics Work</div> -->
+            <div class="overlay">Graphics</div>
         </a>
         <a href="about page/About.html" class="grid-item" id="about">
             <img src="" alt="About Me" id="aboutImage">
-            <!-- <div class="overlay">About Me</div> -->
+            <div class="overlay">About</div>
         </a>
     </div>
 
-    <!-- Footer 
+    <!-- Footer
     <footer>
         <p>Connect with me: <a href="#">GitHub</a> | <a href="#">LinkedIn</a></p>
     </footer>-->
 </body>
 </html>
-
-
-
